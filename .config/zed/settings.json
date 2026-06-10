@@ -1,10 +1,14 @@
 {
   "base_keymap": "SublimeText",
-  "icon_theme": "JetBrains New UI Icons (Dark)",
+  "icon_theme": {
+    "mode": "system",
+    "light": "JetBrains New UI Icons (Light)",
+    "dark": "JetBrains New UI Icons (Dark)",
+  },
   "theme": {
     "mode": "system",
-    "light": "Solarized Light",
-    "dark": "Solarized Dark",
+    "light": "Selenized Light",
+    "dark": "Selenized Dark",
   },
   "restore_on_startup": "empty_tab",
   "telemetry": {
@@ -12,15 +16,32 @@
     "diagnostics": false,
   },
   "collaboration_panel": { "dock": null, "button": false },
-  "terminal": { "dock": null, "button": false },
   "agent": { "dock": null, "button": false, "enabled": false },
   "edit_predictions": { "provider": "none" },
 
-  "ui_font_family": "FiraCode Nerd Font",
+  "ui_font_family": "Victor Mono",
+  "ui_font_features": { "calt": true },
   "ui_font_size": 16,
-  "buffer_font_family": "FiraCode Nerd Font",
+  "buffer_font_family": "Victor Mono",
+  "buffer_font_features": { "calt": true },
   "buffer_font_size": 15,
 
   "show_whitespaces": "all",
   "preferred_line_length": 120,
+
+  "languages": {
+    "Python": {
+      "format_on_save": "off",
+    },
+  },
+  "disable_ai": true,
+  "terminal": {
+    "bell": "system",
+    "copy_on_select": false,
+    "cursor_shape": "bar",
+  },
+  "multi_cursor_modifier": "cmd_or_ctrl",
+  "session": {
+    "trust_all_worktrees": true,
+  },
 }
