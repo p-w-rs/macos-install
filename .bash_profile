@@ -1,4 +1,2 @@
-# .bash_profile
-
-# Get the aliases and functions
+# ~/.bash_profile
 [ -f $HOME/.bashrc ] && . $HOME/.bashrc

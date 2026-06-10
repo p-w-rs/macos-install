@@ -1,0 +1,24 @@
+# ~/.config/ripgrep/ripgreprc
+# Options here are applied to every rg invocation.
+
+# Search hidden files/dirs by default (exclude .git below).
+--hidden
+
+# Always follow symlinks.
+--follow
+
+# Ignore case when pattern is all-lowercase; respect case when it has uppercase.
+--smart-case
+
+# Never search inside .git directories.
+--glob=!.git/
+
+# Common build/dependency dirs to skip.
+--glob=!node_modules/
+--glob=!target/
+--glob=!.venv/
+--glob=!__pycache__/
+--glob=!*.pyc
+--glob=!dist/
+--glob=!build/
+--glob=!.cache/

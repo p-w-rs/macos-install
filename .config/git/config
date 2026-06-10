@@ -28,7 +28,7 @@
 
 # ─── Merge & Rebase ──────────────────────────────────────────────────────────
 [merge]
-    conflictstyle = zdiff3               # Richer conflict markers with base context
+    conflictstyle = zdiff3
 
 [rebase]
     autoSquash = true
@@ -41,7 +41,7 @@
 
 # ─── Commit ──────────────────────────────────────────────────────────────────
 [commit]
-    verbose = true                       # Show diff inside Helix when committing
+    verbose = true
 
 # ─── Rerere ──────────────────────────────────────────────────────────────────
 [rerere]
@@ -63,6 +63,9 @@
     ui = auto
 
 # ─── Credential Storage ──────────────────────────────────────────────────────
+# macOS: osxkeychain is git's built-in default — no entry needed.
+# Linux: 'store' writes plaintext to ~/.git-credentials; acceptable on a
+#        headless server where there is no keychain.
 [credential]
     helper = store
 

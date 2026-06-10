@@ -1,0 +1,12 @@
+# ~/.config/fd/ignore
+# Patterns here are applied to every fd invocation (gitignore syntax).
+
+.git/
+node_modules/
+target/
+.venv/
+__pycache__/
+*.pyc
+dist/
+build/
+.cache/
