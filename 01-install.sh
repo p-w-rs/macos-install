@@ -12,7 +12,7 @@ brew install uv lua luarocks
 curl -fsSL https://install.julialang.org | sh
 curl -sSL https://github.com/koka-lang/koka/releases/latest/download/install.sh | sh
 
-brew install amp atomicparsley eza wget tree htop fswatch duti python-yq pandoc mas cfonts yt-dlp qrencode unison
+brew install atomicparsley eza wget tree helix htop fswatch duti python-yq pandoc mas cfonts yt-dlp qrencode unison
 
 brew install yazi file-formula ffmpeg sevenzip jq poppler fd ripgrep fzf zoxide resvg xclip imagemagick
 
