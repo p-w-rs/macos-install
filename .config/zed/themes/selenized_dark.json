@@ -1,6 +1,6 @@
 {
   "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
-  "author": "converted from harmtemolder/solarized",
+  "author": "converted from harmtemolder/Solarized.zed",
   "name": "Selenized Dark",
   "themes": [
     {
@@ -168,7 +168,8 @@
             "color": "#adbcbc"
           },
           "emphasis": {
-            "color": "#4695f7"
+            "color": "#4695f7",
+            "font_style": "italic"
           },
           "emphasis.strong": {
             "color": "#4695f7",
@@ -185,7 +186,8 @@
             "font_weight": 700
           },
           "keyword": {
-            "color": "#75b938"
+            "color": "#75b938",
+            "font_style": "italic"
           },
           "label": {
             "color": "#4695f7"
@@ -195,7 +197,8 @@
             "font_style": "italic"
           },
           "link_uri": {
-            "color": "#af88eb"
+            "color": "#af88eb",
+            "font_style": "italic"
           },
           "number": {
             "color": "#f275be"
@@ -205,7 +208,8 @@
           },
           "predictive": {
             "background_color": "#103c48",
-            "color": "#f275be"
+            "color": "#f275be",
+            "font_style": "italic"
           },
           "preproc": {
             "color": "#ed8649"
