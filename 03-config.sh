@@ -4,7 +4,7 @@ set -euo pipefail
 FIRST_NAME="Joshua"
 LAST_NAME="Powers"
 EMAIL="joshua@powerslabs.org"
-EDITOR_ID="" # make this amp somehow
+EDITOR_ID="dev.zed.Zed"
 BASH_CONFIG="$HOME/.bash_profile"
 
 # ── Default editor for file types ─────────────────────────────────────────────
