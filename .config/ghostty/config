@@ -1,11 +1,11 @@
 term = xterm-256color
 
 # --- Fonts ---
-window-title-font-family = FantasqueSansM Nerd Font Mono
-font-family = FantasqueSansM Nerd Font Mono
-font-family-bold = FantasqueSansM Nerd Font Mono Bold
-font-family-italic = FantasqueSansM Nerd Font Mono Italic
-font-family-bold-italic = FantasqueSansM Nerd Font Mono Bold Italic
+window-title-font-family = Victor Mono
+font-family = Victor Mono
+font-family-bold = Victor Mono Bold
+font-family-italic = Victor Mono Italic
+font-family-bold-italic = Victor Mono Bold Italic
 font-synthetic-style = bold,italic,bold-italic
 font-size = 14
 font-thicken = true
