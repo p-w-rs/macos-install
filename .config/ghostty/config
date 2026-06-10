@@ -30,7 +30,6 @@ mouse-shift-capture = false
 # --- Shell ---
 shell-integration = detect
 shell-integration-features = true
-command = /usr/bin/env bash
 
 # --- Window / Behavior ---
 working-directory = home
