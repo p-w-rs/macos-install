@@ -18,7 +18,7 @@ brew install yazi file-formula ffmpeg sevenzip jq poppler fd ripgrep fzf zoxide 
 
 brew install qemu sile
 
-brew install --cask font-3270-nerd-font font-daddy-time-mono-nerd-font font-fairfax font-iosevka font-juliamono font-fantasque-sans-mono-nerd-font font-fira-code-nerd-font font-gentium-plus font-hack font-hasklig font-heavy-data-nerd-font font-libertinus font-monofur-nerd-font font-victor-mono-nerd-font font-ruthie
+brew install --cask font-victor-mono font-fairfax font-iosevka font-juliamono font-gentium-plus font-hack font-hasklig font-libertinus font-ruthie
 
 brew install --cask adobe-digital-editions combine-pdfs nikitabobko/tap/aerospace typora xquartz wezterm
 
