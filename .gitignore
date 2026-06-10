@@ -1,3 +1,9 @@
+# Secrets & keys
 .ssh/id_ed*
 .ssh/known_hosts
 .config/bash/conf.d/secrets.sh
+
+# Machine-local state that should not be committed
+.local/
+.cache/
+.config/bash/.history

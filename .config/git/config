@@ -5,7 +5,7 @@
 
 # ─── Core Behavior ───────────────────────────────────────────────────────────
 [core]
-    editor     = amp                     # amp.rs
+    editor     = hx                      # helix
     autocrlf   = input                   # Commit LF, leave checkout alone
     whitespace = fix
     pager      = less -FRX

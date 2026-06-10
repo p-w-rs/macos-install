@@ -1,6 +1,6 @@
-# ─── zoxide ──────────────────────────────────────────────────────────────────
-# Smarter `cd`. Guarded so the shared config doesn't error on a box where
-# zoxide hasn't been installed yet.
+# ─── zoxide (smarter cd) ─────────────────────────────────────────────────────
+# `have` is defined in config.sh, sourced before this snippet.
 if have zoxide; then
+    export _ZO_DATA_DIR="$XDG_DATA_HOME/zoxide"
     eval "$(zoxide init --cmd cd bash)"
 fi
