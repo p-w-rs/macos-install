@@ -20,7 +20,7 @@ brew install qemu sile
 
 brew install --cask font-victor-mono font-fairfax font-iosevka font-juliamono font-gentium-plus font-hack font-hasklig font-libertinus font-ruthie
 
-brew install --cask adobe-digital-editions combine-pdfs ghostty nikitabobko/tap/aerospace typora xquartz zed
+brew install --cask adobe-digital-editions combine-pdfs flux-app ghostty nikitabobko/tap/aerospace typora xquartz zed
 
 mas lucky SiteSucker
 mas lucky Keynote
